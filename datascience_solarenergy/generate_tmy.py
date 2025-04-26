@@ -231,12 +231,12 @@ def generate_tmy(df):
 
 # --- Script Principal ---
 # Definir carpeta de salida con ruta absoluta
-output_dir = '/home/nicole/DataScience_SolarEnergy/datascience_solarenergy' 
+output_dir = '/home/cparrado/datasciencesolar/datascience_solarenergy/datascience_solarenergy/' 
 os.makedirs(output_dir, exist_ok=True) # Crear carpeta si no existe
 
 # Cargar el dataset
 # Usar ruta absoluta también para la carga, aunque ya funcionaba
-file_path = '/home/nicole/DataScience_SolarEnergy/datascience_solarenergy/antofagasta_dirty.csv'
+file_path = '/home/cparrado/datasciencesolar/datascience_solarenergy/datascience_solarenergy/antofagasta_dirty.csv'
 print(f"Cargando datos desde: {file_path}")
 try:
     df = pd.read_csv(file_path)
