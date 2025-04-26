@@ -1,0 +1,62 @@
+=================================================
+ TMY Generation Report for Antofagasta Data 
+=================================================
+
+
+--- Data Cleaning Summary ---
+Data Cleaning Summary:
+=====================
+
+Column: GHI
+  Initial NaNs: 100
+  Outliers > 1250 marked as NaN: 175
+  Interpolated/Filled NaNs (Original: 100, Marked: 175, Final: 0)
+  Values < 0 clipped: 35
+
+Column: DNI
+  Initial NaNs: 100
+  Interpolated/Filled NaNs (Original: 100, Marked: 0, Final: 0)
+  Values < 0 clipped: 34
+
+Column: DHI
+  Initial NaNs: 100
+  Interpolated/Filled NaNs (Original: 100, Marked: 0, Final: 0)
+  Values < 0 clipped: 35
+
+Column: Tdry
+  Initial NaNs: 135
+  Interpolated/Filled NaNs (Original: 135, Marked: 0, Final: 0)
+
+Column: Wspd
+  Initial NaNs: 135
+  Interpolated/Filled NaNs (Original: 135, Marked: 0, Final: 0)
+  Values < 0 clipped: 95
+
+Limpieza de datos completada.
+
+
+--- Selected Source Year for Each Month ---
+  Jan: 2014
+  Feb: 2004
+  Mar: 2008
+  Apr: 2004
+  May: 2009
+  Jun: 2013
+  Jul: 2012
+  Aug: 2014
+  Sep: 2013
+  Oct: 2013
+  Nov: 2015
+  Dec: 2014
+
+
+--- Descriptive Statistics of Final TMY Data ---
+         Year        Month          Day         Hour  Minute          GHI           DNI           DHI         Tdry         Tdew           RH         Pres         Wspd         Wdir  Snow Depth
+count  8760.0  8760.000000  8760.000000  8760.000000  8760.0  8760.000000   8760.000000   8760.000000  8760.000000  8760.000000  8760.000000  8760.000000  8760.000000  8760.000000      8760.0
+mean   2000.0     6.526027    15.720548    11.500000     0.0   300.327437    636.558664    225.272803    14.478271    14.745525    25.582751   830.618516     5.145000   153.823459         0.0
+std       0.0     3.448048     8.796749     6.922582     0.0   390.990733   1431.954855   1401.919148    10.084053     6.602946    16.341643    11.568928     6.429204   110.083257         0.0
+min    2000.0     1.000000     1.000000     0.000000     0.0     0.000000      0.000000      0.000000   -30.000000    -0.200000     0.000000   792.000000     0.000000     0.000000         0.0
+25%    2000.0     4.000000     8.000000     5.750000     0.0     0.000000      0.000000      0.000000     8.900000     9.200000    12.500000   822.000000     2.700000    36.000000         0.0
+50%    2000.0     7.000000    16.000000    11.500000     0.0     0.000000      0.000000      0.425000    14.900000    15.100000    23.900000   832.100000     4.100000   169.500000         0.0
+75%    2000.0    10.000000    23.000000    17.250000     0.0   639.425000   1033.300000     38.400000    20.200000    20.200000    34.900000   839.300000     5.900000   256.500000         0.0
+max    2000.0    12.000000    31.000000    23.000000     0.0  1210.000000  10500.000000  10500.000000    70.000000    28.600000   100.000000   863.200000    55.000000   358.500000         0.0
